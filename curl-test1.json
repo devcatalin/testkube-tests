@@ -1,0 +1,7 @@
+{
+    "command": [
+      "curl",
+      "https://jsonplaceholder.typicode.com/todos/1"
+    ],
+    "expected_status": "200"
+}
