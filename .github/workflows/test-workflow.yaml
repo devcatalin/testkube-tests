@@ -18,5 +18,6 @@ jobs:
         organization: ${{ secrets.TESTKUBE_ORG_ID }}
         environment: ${{ secrets.TESTKUBE_ENV_ID }}
         token: ${{ secrets.TESTKUBE_TOKEN }}
+        url: testkube.dev
     - run: |
         testkube run testworkflow postman-workflow-smoke-cron-trigger-test -f
