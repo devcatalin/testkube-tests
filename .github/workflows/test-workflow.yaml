@@ -20,4 +20,4 @@ jobs:
         token: ${{ secrets.TESTKUBE_TOKEN }}
         url: testkube.dev
     - run: |
-        testkube run testworkflow postman-workflow-smoke-cron-trigger-test -f
+        testkube run testworkflow catalin-test-20 -f
