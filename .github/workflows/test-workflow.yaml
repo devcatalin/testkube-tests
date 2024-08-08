@@ -1,4 +1,4 @@
-name: Trigger the 'postman-workflow-smoke-cron-trigger-test' Test Workflow on Testkube
+name: Trigger Test Workflow on Testkube
 
 on:
   push:
