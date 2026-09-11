@@ -11,6 +11,7 @@ class JsonPlaceholderTodo1Test(unittest.TestCase):
             self.assertEqual(response.status, 200)
             payload = json.loads(response.read().decode('utf-8'))
 
+        self.assertIsInstance(payload, dict)
         self.assertEqual(payload['id'], 1)
         self.assertEqual(payload['userId'], 1)
         self.assertFalse(payload['completed'])
