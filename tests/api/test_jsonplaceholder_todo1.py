@@ -7,6 +7,7 @@ from urllib.request import urlopen
 
 class JsonPlaceholderTodo1Test(unittest.TestCase):
     def test_get_todo_1(self):
+        """Check that todo 1 returns the expected JSON payload and status."""
         with urlopen('https://jsonplaceholder.typicode.com/todos/1') as response:
             self.assertEqual(response.status, 200)
             payload = json.loads(response.read().decode('utf-8'))
