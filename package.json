@@ -1,0 +1,13 @@
+{
+  "name": "echo-world-test",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "vitest": "2.0.5"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:one": "vitest run tests/echo.spec.ts"
+  }
+}
