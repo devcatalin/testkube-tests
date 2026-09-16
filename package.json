@@ -1,0 +1,12 @@
+{
+  "name": "playwright-e2e-minimal",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:one": "playwright test tests/example.spec.ts"
+  }
+}
